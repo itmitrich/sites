@@ -1,2 +1,3 @@
 # sites
-[go](https://itmitrich.github.io/sites/){:target="_blank" rel="noopener"}
+[link](https://itmitrich.github.io/sites/){:target="_blank"}
+<!-- [link](url){:target="_blank"} -->
