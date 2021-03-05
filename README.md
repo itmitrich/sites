@@ -1,2 +1,2 @@
 # sites
-https://itmitrich.github.io/sites/
+<a href="https://itmitrich.github.io/sites/" target="_blank">my</a>
