@@ -7,11 +7,29 @@
     <title>Document</title>
     <style>
       body {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
         font-family: sans-serif;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      header {
+        border: 1px solid red;
+        width: 1024px;
+        max-width: 1024px;
+      }
+      main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      nav {
+        border: 1px solid orange;
+        width: 1024px;
+        max-width: 1024px;
       }
       a {
         text-decoration: none;
@@ -26,27 +44,45 @@
       .bb {
         font-weight: bold;
       }
+      footer {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     </style>
   </head>
   <body>
-    <h2>..::[ Мои проекты ]::..</h2>
-    <ul>
-      <li>
-        <a href="my-resume_goit/" target="_blank">my first test site</a>........
-        <span class="bb">[ GO IT ]</span>
-      </li>
-      <li>
-        <a href="geek_simple/" target="_blank">geek_simple</a>.............
-        <span class="bb">[ GEEK ]</span>
-      </li>
-      <li>
-        <a href="geek_logitech/" target="_blank">geek_logitech</a>...........
-        <span class="bb">[ GEEK ]</span>
-      </li>
-      <li>
-        <a href="htmlacademy/" target="_blank">htmlacademy</a>............
-        <span class="bb">[ HTML Academy ]</span>
-      </li>
-    </ul>
+    <section class="header">
+      <header class="header">
+        <h2>..::[ Мои проекты ]::..</h2>
+      </header>
+    </section>
+    <main>
+      <nav>
+        <ul>
+          <li>
+            <a href="my-resume_goit/" target="_blank">my first test site</a
+            >........
+            <span class="bb">[ GO IT ]</span>
+          </li>
+          <li>
+            <a href="geek_simple/" target="_blank">geek_simple</a>.............
+            <span class="bb">[ GEEK ]</span>
+          </li>
+          <li>
+            <a href="geek_logitech/" target="_blank">geek_logitech</a
+            >...........
+            <span class="bb">[ GEEK ]</span>
+          </li>
+          <li>
+            <a href="htmlacademy/" target="_blank">htmlacademy</a>............
+            <span class="bb">[ HTML Academy ]</span>
+          </li>
+        </ul>
+      </nav>
+    </main>
+    <footer>itmitrich.github.io © 2021</footer>
   </body>
 </html>
