@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,6 +7,8 @@
     <title>IT Mitrich</title>
     <style>
       body {
+        margin: 0;
+        padding: 0;
         font-family: sans-serif;
       }
       .header {
@@ -14,22 +16,29 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        background-color: rgb(203, 199, 240);
       }
       header {
-        border: 1px solid red;
-        width: 1024px;
-        max-width: 1024px;
+        /* border: 1px solid red; */
+        /* width: 1024px; */
+        /* max-width: 1024px; */
       }
       main {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        background-color: rgba(241, 132, 81, 0.815);
+        /* width: 1024px; */
+        /* max-width: 1024px; */
+        flex-wrap: wrap;
+        padding-bottom: 100px;
       }
       nav {
-        border: 1px solid orange;
-        width: 1024px;
-        max-width: 1024px;
+        /* border: 1px solid rgb(0, 132, 255); */
+        /* width: 1024px; */
+        /* max-width: 1024px; */
+        background-color: #34b4e7;
       }
       a {
         text-decoration: none;
@@ -44,12 +53,45 @@
       .bb {
         font-weight: bold;
       }
+      .text {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        /* width: 1024px; */
+        /* max-width: 1024px; */
+      }
+      aside {
+        padding-top: 10px;
+        margin: 0 20px;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        /* justify-content: flex-end; */
+        /* padding-left: 10px; */
+        /* padding-right: 10px; */
+        /* padding-bottom: 100px; */
+      }
+      aside p {
+        padding: 0 10px;
+      }
+      .qwe p {
+        padding: 0 10px;
+        color: black;
+        font-weight: bold;
+      }
       footer {
+        /* margin-top: 100px; */
         padding-top: 100px;
+        padding-bottom: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: #0e2368;
+        color: white;
       }
     </style>
   </head>
@@ -82,9 +124,53 @@
           </li>
         </ul>
       </nav>
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro minus
+          tenetur earum, sint unde veritatis distinctio dicta vel possimus
+          minima ratione sunt. Dolores, sed. Nemo consequatur beatae minus!
+          Illum, voluptatibus.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quo
+          enim, hic dignissimos illo eaque rerum optio repellendus quibusdam
+          numquam placeat ipsa eveniet, earum modi autem consequatur corporis
+          vitae laudantium.
+        </p>
+      </div>
+      <aside>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+          asperiores dolores debitis, ipsum fuga nemo quas impedit molestiae
+          laudantium repudiandae nam et vel dolorem quam ex sunt possimus vitae
+          ea.
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea,
+          impedit sint officia error labore eos nemo blanditiis, minus ipsum
+          neque nulla quae saepe tenetur. Aliquid fugiat a molestiae iusto?
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, minima
+          amet laboriosam eligendi fuga autem exercitationem doloremque
+          voluptate? Corporis harum accusantium nostrum blanditiis odio
+          aspernatur non ex! Atque, possimus alias!
+        </p>
+      </aside>
+      <div class="qwe">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga
+          sit necessitatibus exercitationem deleniti eligendi voluptatibus
+          corporis perferendis, quibusdam amet dignissimos dolores maiores
+          soluta minus ducimus repudiandae officia optio debitis.
+        </p>
+      </div>
     </main>
-    <footer>itmitrich.github.io © 2021
-    <!-- <br>123 -->
+    <footer>
+      itmitrich.github.io © 2021
+      <!-- <br>123 -->
     </footer>
   </body>
 </html>
