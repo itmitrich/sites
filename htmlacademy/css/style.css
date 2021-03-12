@@ -7,13 +7,13 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
-  /* align-items: flex-start; */
-  /* width: 1400px; */
+  justify-content: center;
+  align-items: center;
+  width: 1400px;
+  height: 715px;
   /* height: 746px; */
   background-image: url("img/main.png");
   background-repeat: no-repeat;
-  background-size: 50%;
   /* background: url("img/main.png") no-repeat 0 0; */
   /* height: 715px; */
   /* padding-top: 36px; */
@@ -35,6 +35,11 @@ nav {
   line-height: 20px;
   color: #533738;
   /* padding-t1op: 36px; */
+}
+.logo {
+  background-image: url("img/1.png");
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
 }
 ul {
   padding-top: 36px;
