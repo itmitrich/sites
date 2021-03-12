@@ -1,13 +1,51 @@
 html,
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+  /* width: 1400px; */
+  /* height: 746px; */
+  background-image: url("img/main.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  /* background: url("img/main.png") no-repeat 0 0; */
+  /* height: 715px; */
+  /* padding-top: 36px; */
+}
 header {
+  margin: 0;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+  border: 1px solid black;
+  /* height: 100px; */
+}
+nav {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
+  /* padding-t1op: 36px; */
+}
+ul {
+  padding-top: 36px;
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px solid black;
-  height: 100px;
+}
+li {
+  padding: 26px;
+}
+main {
+  width: 1400px;
 }
