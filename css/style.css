@@ -10,11 +10,7 @@ body {
   align-items: center;
   background-color: seagreen;
 }
-header {
-  /* border: 1px solid red; */
-  /* width: 1024px; */
-  /* max-width: 1024px; */
-}
+
 main {
   display: flex;
   flex-direction: column;
