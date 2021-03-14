@@ -24,19 +24,24 @@
             border: 1px solid red;
             padding: 5px;
             display: flex;
+            justify-content: center;
             align-items: center;
+            width: 150px;
         }
 
         .nav {
             border: 1px solid orange;
-            display: flex;
+            /* display: flex; */
             /* align-items: center; */
             width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             flex-wrap: wrap;
         }
 
-        .list-link {
-            list-style: none;
+        .nav a {
+            padding: 5px;
         }
 
         a {
@@ -70,47 +75,55 @@
         <h1>logo</h1>
     </div>
     <nav class="nav">
-        <ul class="list-link">
-            <li>
-                <a href="#about">О нас</a>
-            </li>
-            <li>
-                <a href="#">Портфолио</a>
-            </li>
-            <li>
-                <a href="#">Наша команда</a>
-            </li>
-        </ul>
-        <ul class="list-link">
-            <li>
-                <a href="#">#</a>
-            </li>
-            <li>
-                <a href="#">Отзывы</a>
-            </li>
-            <li>
-                <a href="#contacts">Контакты</a>
-            </li>
-        </ul>
+        <a href="#about">О нас</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#teams">Наша команда</a>
+        <a href="#">#</a>
+        <a href="#reports">Отзывы</a>
+        <a href="#contacts">Контакты</a>
     </nav>
 </header>
-<section class="about" id="#about">
+<section class="about" id="about">
     <h2>about</h2>
     <p>
-        просто текст
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae cupiditate, eaque optio saepe magni voluptatum
+        aliquam. Possimus mollitia deleniti, quisquam sit sequi minus ipsum provident, tempora accusamus perferendis
+        modi odit.
     </p>
 </section>
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
     <h3>portfolio</h3>
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate et inventore dolorum facilis? Illum
+        repellat
+        reprehenderit consectetur? Assumenda, voluptatibus. Vel doloremque ad exercitationem? Numquam consequuntur
+        dolorum
+        voluptatibus repudiandae qui!
+    </p>
 </section>
-<section class="teams">
+<section class="teams" id="teams">
     <h3>teams</h3>
+    <a href=""><img src="" alt=""></a>
+    <a href=""><img src="" alt=""></a>
+    <a href=""><img src="" alt=""></a>
 </section>
 <section class="#">
     #
 </section>
-<section class="reports">
-    reports
+<section class="reports" id="reports">
+    <h3>reports</h3>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deleniti ullam nobis pariatur distinctio enim
+        praesentium iusto odit! Mollitia numquam veniam quia reprehenderit, blanditiis dignissimos dolorem! Officiis
+        maxime rem amet.
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias natus ipsam nesciunt ad illum. Natus
+        similique iste ut voluptatum consequuntur, obcaecati quas ad cum ratione vero deleniti numquam atque illum.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quo voluptatibus voluptatem quasi a eum id
+        nobis, modi sit itaque totam magnam, autem tenetur eveniet. Hic totam quae dolorum eligendi!</p>
 </section>
 <footer id="contacts">
     <div class="copyright">
