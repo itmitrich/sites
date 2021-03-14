@@ -33,6 +33,7 @@ nav {
 
 .shapka {
     background: #FF7056;
+    justify-content: center;
     align-items: center;
 }
 .links {
