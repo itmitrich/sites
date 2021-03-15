@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -41,6 +42,13 @@ nav {
 }
 .links {
   background: #4b63ff;
+}
+
+.others {
+  background: #ff7056;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
