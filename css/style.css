@@ -1,8 +1,9 @@
-body {
+html, body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
+
 .header {
   display: flex;
   justify-content: center;
@@ -21,6 +22,7 @@ main {
   flex-wrap: wrap;
   padding-bottom: 100px;
 }
+
 nav {
   /* border: 1px solid rgb(0, 132, 255); */
   /* width: 1024px; */
@@ -40,19 +42,24 @@ nav {
 .links {
   background: #4b63ff;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 li {
   list-style-type: square;
 }
+
 .bb {
   font-weight: bold;
 }
+
 .text {
   padding: 0 10px;
   display: flex;
@@ -63,6 +70,7 @@ li {
   /* width: 1024px; */
   /* max-width: 1024px; */
 }
+
 aside {
   padding-top: 10px;
   margin: 0 20px;
@@ -74,14 +82,17 @@ aside {
   /* padding-right: 10px; */
   /* padding-bottom: 100px; */
 }
+
 aside p {
   padding: 0 10px;
 }
+
 .qwe p {
   padding: 0 10px;
   color: black;
   font-weight: bold;
 }
+
 footer {
   /* margin-top: 100px; */
   padding-top: 100px;
@@ -93,10 +104,12 @@ footer {
   background-color: #0e2368;
   color: white;
 }
+
 footer a {
   color: white;
   text-decoration: none;
 }
+
 footer a:hover {
   text-decoration: underline;
 }
