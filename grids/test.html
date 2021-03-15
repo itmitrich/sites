@@ -9,19 +9,21 @@
       body {
         margin: 0;
         padding: 0;
-        font-family: Sans-Serif;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       }
 
       header {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         padding: 0;
         margin: 0;
         display: flex;
         position: static;
+        background: #000;
       }
 
       .logo {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         padding: 5px;
         display: flex;
         justify-content: center;
@@ -30,11 +32,11 @@
       }
 
       .logo a {
-        color: blue;
+        color: #26f126;
       }
 
       .nav {
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
         /* display: flex; */
         /* align-items: center; */
         width: 100%;
@@ -46,10 +48,11 @@
 
       .nav a {
         padding: 5px;
+        color: #00e1ff;
       }
 
       .nav a:hover {
-        background: #ffbe74;
+        background: #ff0000;
         border-radius: 10px;
       }
 
@@ -59,9 +62,10 @@
       }
 
       section {
+        background: #f08934;
         margin: 0;
         padding: 10px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
       }
 
       .about {
@@ -69,13 +73,18 @@
       }
 
       footer {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         margin: 0;
+        background: #000;
+        height: 100px;
       }
 
-      .copyright {
-        padding: 10px;
+      .copyright a {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
         margin: 0;
+        color: white;
       }
     </style>
   </head>
@@ -85,7 +94,7 @@
         <a href="test.html">logo</a>
       </h1>
     </div>
-    <nav class="nav">
+    <nav class="nav" id="nav">
       <a href="#about">О нас</a>
       <a href="#portfolio">Портфолио</a>
       <a href="#teams">Наша команда</a>
@@ -226,6 +235,8 @@
     </p>
   </section>
   <footer id="contacts">
-    <div class="copyright">copyright 2021</div>
+    <div class="copyright">
+      <a href="#nav"> copyright © 2021 </a>
+    </div>
   </footer>
 </html>
