@@ -1,60 +1,58 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #8ab1fa;
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <style>
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      background: #8ab1fa;
-    }
+      header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        border: 1px solid red;
+        gap: 10px 20px;
+        padding: 10px;
+      }
 
-    header {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      border: 1px solid red;
-      gap: 10px 20px;
-      padding: 10px;
-    }
+      div {
+        border: 1px solid black;
+      }
 
-    div {
-      border: 1px solid black;
-    }
+      .main {
+        display: grid;
+        padding: 10px;
+      }
 
-    .main {
-      display: grid;
-      padding: 10px;
-    }
+      footer {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
 
-    footer {
-      margin-top: 10px;
-      display: flex;
-      justify-content: space-around;
-    }
-  </style>
-</head>
-
-<body>
-  <header>
-    <div>header 1 2 3</div>
-    <div>header 1 2 3</div>
-    <div>header 1 2 3</div>
-    <div>header 1 2 3</div>
-  </header>
-  <section class="main">
-    <div class="div"><a href="#">#</a></div>
-    <div class="div"><a href="#">#</a></div>
-    <div class="div"><a href="#">#</a></div>
-  </section>
-  <footer>
-    <div>grids © 2021</div>
-    <div>mail:</div>
-  </footer>
-</body>
-
+  <body>
+    <header>
+      <div>header 1 2 3</div>
+      <div>header 1 2 3</div>
+      <div>header 1 2 3</div>
+      <div>header 1 2 3</div>
+    </header>
+    <section class="main">
+      <div class="div"><a href="#">#</a></div>
+      <div class="div"><a href="#">#</a></div>
+      <div class="div"><a href="#">#</a></div>
+    </section>
+    <footer>
+      <div>grids © 2021</div>
+      <div>mail:</div>
+    </footer>
+  </body>
 </html>

@@ -31,14 +31,14 @@ nav {
 }
 
 .shapka {
-    background: #FF7056;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-/*    border: 1px solid black; */
+  background: #ff7056;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*    border: 1px solid black; */
 }
 .links {
-  background: #4B63FF;
+  background: #4b63ff;
 }
 a {
   text-decoration: none;

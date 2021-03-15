@@ -1,12 +1,12 @@
 html,
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #e5e5e5;
 }
 .main {
-  background-image: url('../img/main.png');
+  background-image: url("../img/main.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin: auto;
@@ -55,7 +55,7 @@ li {
   padding: 26px;
 }
 .logo {
-  background-image: url('../img/1.png');
+  background-image: url("../img/1.png");
   /* background-position: 10px 10px; */
   background-position: left center;
   background-repeat: no-repeat;
